@@ -1,6 +1,7 @@
 v2.0: 12-11-2018
 *Added support for both C/Cpp projects.
 *Now supports all file extensions supported by 'g++'
+Updated ReadMe.md
 
 v1.0 : 12-11-2018 Initial Release
 *Support for Cpp files and projects
