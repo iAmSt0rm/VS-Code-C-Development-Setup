@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "${fileBasenameNoExtension}.cpp", "-o", "${fileBasenameNoExtension}"
+                "-g", "${fileBasename}", "-o", "${fileBasenameNoExtension}"
             ],
             "group": {
                 "kind": "build",
