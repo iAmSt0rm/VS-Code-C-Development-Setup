@@ -5,7 +5,7 @@ Prerequisites:
 2. VSCode
 
 How to get it work?
->Just get the .vscode folder cloned in your current C++ project directory.
+*Just get the .vscode folder cloned in your current C++ project directory.
 
 If you want to set it manually, follow the instructions:
 1. Open the folder you have/want to begin the C/CPP project in VSCode.
