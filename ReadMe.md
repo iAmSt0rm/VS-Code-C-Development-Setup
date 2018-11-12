@@ -1,14 +1,14 @@
-#What it is?
+# What it is?
 A Visual Studio Code configuration that allows the *.c/.cpp* files to be compiled and the *'.exe'* file to be executed, will be created with the same name as the base *.c/.cpp* file.
 
-##Prerequisites:
+## Prerequisites:
 1. MingGW (As it is setup to work with MinGW on Windows)
 2. VSCode
 
-##How to get it work?
+## How to get it work?
 *Just get the .vscode folder cloned in your current C++ project directory.
 
-##Manual Setup
+## Manual Setup
 If you want to set it manually, follow the instructions:
 1. Open the folder you have/want to begin the C/CPP project in VSCode.
 2. Open Power **Command Palette** (Ctrl+Shift+P) and type *'tasks'* and select **'Tasks:Configure Task'**. It will open the **'tasks.json'** file in VSCode editor.
