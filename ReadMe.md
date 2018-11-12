@@ -4,6 +4,8 @@ A Visual Studio Code configuration that allows the *.c/.cpp* files to be compile
 ## Prerequisites:
 1. MingGW (As it is setup to work with MinGW on Windows)
 2. VSCode
+3. Add MinGW directory to *'PATH'*. (Google how to do it if you do not know)
+
 
 ## How to get it work?
 * Just get the *.vscode* folder cloned in your current C/C++ project directory.
