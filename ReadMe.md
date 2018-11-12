@@ -1,15 +1,17 @@
-A Visual Studio Code configuration that allows the .c/.cpp files to be compiled and the '.exe' file to be executed, will be created with the same name as the base .c/.cpp file.
+#What it is?
+A Visual Studio Code configuration that allows the *.c/.cpp* files to be compiled and the *'.exe'* file to be executed, will be created with the same name as the base *.c/.cpp* file.
 
-Prerequisites:
+##Prerequisites:
 1. MingGW (As it is setup to work with MinGW on Windows)
 2. VSCode
 
-How to get it work?
+##How to get it work?
 *Just get the .vscode folder cloned in your current C++ project directory.
 
+##Manual Setup
 If you want to set it manually, follow the instructions:
 1. Open the folder you have/want to begin the C/CPP project in VSCode.
-2. Open Power Command Palette (Ctrl+Shift+P) and type 'tasks' and select 'Tasks:Configure Task'. It will open the 'tasks.json' file in VSCode editor.
+2. Open Power **Command Palette** (Ctrl+Shift+P) and type *'tasks'* and select **'Tasks:Configure Task'**. It will open the **'tasks.json'** file in VSCode editor.
 3. Replace all the code with the following code:
         
         {            
@@ -30,7 +32,7 @@ If you want to set it manually, follow the instructions:
             ]
         }
 
-4. Open Power Command Palette (Ctrl+Shift+P) again and type 'launch' and select 'Debug:Open launch.json'. It will open the 'launch.json' file in VSCode editor.
+4. Open Power **Command Palette** (Ctrl+Shift+P) again and type *'launch'* and select **'Debug:Open launch.json'**. It will open the **'launch.json'** file in VSCode editor.
 5. Replace all the code with the following code:
        
         {
@@ -60,7 +62,7 @@ If you want to set it manually, follow the instructions:
             ]
         }
 
-6. Open Power Command Palette (Ctrl+Shift+P) again and type 'configurations' and select 'C/Cpp:Edit Configurations'. It will open the 'c_cpp_properties.json' file in VSCode editor.
+6. Open Power **Command Palette (Ctrl+Shift+P)** again and type 'configurations' and select **'C/Cpp:Edit Configurations'**. It will open the **'c_cpp_properties.json'** file in VSCode editor.
 7. Replace all the code with the following code:
        
         {
@@ -84,6 +86,6 @@ If you want to set it manually, follow the instructions:
             "version": 4
         }
 
-These files will be created in a folder named '.vscode' inside the project directory.
+These files will be created in a folder named **'.vscode'** inside the project directory.
 
 Now you can get your C/C++ project up and running with proper file names and degugging enabled.
