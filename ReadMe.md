@@ -11,7 +11,7 @@ If you want to set it manually, follow the instructions:
 1. Open the folder you have/want to begin the C/CPP project in VSCode.
 2. Open Power Command Palette (Ctrl+Shift+P) and type 'tasks' and select 'Tasks:Configure Task'. It will open the 'tasks.json' file in VSCode editor.
 3. Replace all the code with the following code:
-        {            
+                {            
             "version": "2.0.0",
             "tasks": [
                 {
