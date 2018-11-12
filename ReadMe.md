@@ -6,7 +6,7 @@ A Visual Studio Code configuration that allows the *.c/.cpp* files to be compile
 2. VSCode
 
 ## How to get it work?
-*Just get the .vscode folder cloned in your current C++ project directory.
+* Just get the .vscode folder cloned in your current C++ project directory.
 
 ## Manual Setup
 If you want to set it manually, follow the instructions:
